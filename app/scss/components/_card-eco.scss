@@ -20,14 +20,18 @@
   }
 
   &__title {
-    max-width: 150px;
-    max-height: 20px;
+    max-width: 170px;
+    max-height: 40px;
     margin: 0 auto;
     font-size: 16px;
     color: #37383c;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+
+    & span {
+      font-size: 12px;
+    }
   }
 
   &__icon {
